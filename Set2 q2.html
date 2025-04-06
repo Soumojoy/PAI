@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furlenco</title>
+    <style>
+        body{
+    margin : 0;
+    padding : 0;
+    background-color : #ffffff  ;
+}
+.navbar{
+  
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+
+    padding : 10px 20px;
+    display : flex;
+    justify-content : space-between;
+  
+}   
+.left-item{
+    display : flex;
+   
+    flex-direction: row;
+   justify-content: space-evenly;
+   gap: 50px;
+
+}   
+.circle{
+    width : 20px;
+    height : 20px;
+    border-radius : 50%;
+    background-color : none;
+    border : 2px solid cyan;
+    margin-right : 10px;
+   padding: 5px;
+}  
+.buy {
+    display: flex;
+    flex-direction: row;
+} 
+.rent{
+    display: flex;
+    flex-direction: row;    
+}
+.navright{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}   
+.cards img{
+   height: 300px;
+   width: 600px;
+   display: flex;
+
+}
+.cards{
+    padding: 30px 20px 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.newArrivals{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.hero{
+    background-image: url('https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/evolve_2_0/rcb_slim_banner_entry.png');
+    background-size: cover; 
+    margin: 30px 50px;
+    border: 1px solid black;
+    border-radius: 10px;   
+    height: 50vh;
+    overflow-x: hidden;
+
+}
+.hero1{
+    background-image: url('https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/evolve_2_0/rcb_banner_unlmtd_slim.png');
+    background-size: cover; 
+    margin: 30px 50px;
+    border: 1px solid black;
+    border-radius: 10px;   
+    height: 50vh;
+    overflow-x: hidden;
+
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navleft">
+            <div class="left-item">
+                <img width="80" height="60" src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/yoda/furlenco-logo.png" alt="Furlenco Logo" class="logo">
+               <div class="delivery">
+                <img width="20" height="20" src="https://img.icons8.com/glyph-neue/64/737373/marker--v1.png" alt="marker--v1"/>
+                <span class="delivery-text">Delivery to</span>  
+               </div>
+               <div class="buy">
+                <div class="circle">
+                    <img width="22" height="22" src="https://img.icons8.com/windows/32/22C3E6/double-tick.png" alt="double-tick"/>
+                </div>
+                <span style="color: cyan;">Buy <img width="20" height="20" src="https://img.icons8.com/ios/50/22C3E6/expand-arrow--v1.png" alt="expand-arrow--v1"/></span>
+               </div>
+               <div class="rent">
+                <div style=" border : 2px solid grey;" class="circle">
+                    <img width="20" height="20" src="https://img.icons8.com/ios/50/EBEBEB/time_2.png" alt="time_2"/>
+                </div>
+                <span style="color: gray;">rent <img width="20" height="20" src="https://img.icons8.com/ios/50/737373/expand-arrow--v1.png" alt="expand-arrow--v1"/></span>
+               </div>
+               <h2 style="color: purple;">UNLMTD</h2>
+
+            </div>
+        </div>
+        <div class="navright">
+            <div class="searchbar">
+                <input  style="border: 2px solid grey; width: 150px; height: 40px; border: 30px;" type ="text" placeholder="Search for products" class="search-input"> 
+                
+            </div>
+            <div class="profile">
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/1A1A1A/user--v1.png" alt="user--v1"/>
+            </div>
+            <div class="wishList">
+                <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/1A1A1A/filled-like.png" alt="filled-like"/>
+            </div>
+            <div class="cart">
+                <img width="24" height="24" src="https://img.icons8.com/ios/50/1A1A1A/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <img src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/evolve_2_0/rcb_banner_rent_desktop.png" alt="Banner" class="banner"> 
+        <img src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/evolve_2_0/rcb_banner_rent_desktop.png" alt="Banner" class="banner"> 
+        
+    </div>
+  <div class="newArrivals">
+    <div class="card">
+        <image style="border-radius: 16px;" height="300px" width="300px" src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/plutus/products/7212/thumbnail/Furlenco%202.0-14876.jpg" alt="Product 1" class="product-image">   
+            <p>Lorem ipsum dolor sit amet consectetur  </p>
+            <span style="padding: 5px 8px;background-color: aqua; color: white;">rent</span>
+            <p>Price</p>
+    </div>
+
+    <div class="card">
+        <image style="border-radius: 16px;" height="300px" width="300px" src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/plutus/products/7212/thumbnail/Furlenco%202.0-14876.jpg" alt="Product 1" class="product-image">   
+            <p>Lorem ipsum dolor sit amet consectetur  </p>
+            <span style="padding: 5px 8px;background-color: aqua; color: white;">rent</span>
+            <p>Price</p>
+    </div>
+
+
+    <div class="card">
+        <image style="border-radius: 16px;" height="300px" width="300px" src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/plutus/products/7212/thumbnail/Furlenco%202.0-14876.jpg" alt="Product 1" class="product-image">   
+            <p>Lorem ipsum dolor sit amet consectetur  </p>
+            <span style="padding: 5px 8px;background-color: aqua; color: white;">rent</span>
+            <p>Price</p>
+    </div>
+    <div class="card">
+        <image style="border-radius: 16px;" height="300px" width="300px" src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/plutus/products/7212/thumbnail/Furlenco%202.0-14876.jpg" alt="Product 1" class="product-image">   
+            <p>Lorem ipsum dolor sit amet consectetur  </p>
+            <span style="padding: 5px 8px;background-color: aqua; color: white;">rent</span>
+            <p>Price</p>
+    </div>
+
+  </div>
+
+  <div class="hero">
+
+  </div>
+
+  <div class="cards">
+    <img src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/evolve_2_0/why_rent_carousel1_may5.jpg" alt="Banner" class="banner"> 
+    <img src="https://assets.furlenco.com/image/upload/dpr_2.0,f_auto,q_auto/v1/s3-furlenco-images/evolve_2_0/why_rent_carousel1_may5.jpg" alt="Banner" class="banner"> 
+    
+</div>
+
+<div class="hero1">
+
+</div>
+
+</body>
+</html>
